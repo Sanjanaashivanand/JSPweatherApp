@@ -18,7 +18,7 @@ public class WeatherFunctions {
 	public Data getDetails() throws Exception{
 		Data data = new Data();
 		
-		String API_KEY = "65efbef39f0483273b350642020b8b4c";
+		String API_KEY = ""; //Insert API key here
 		String LOCATION = "bengaluru";
 		String urlString = "https://api.openweathermap.org/data/2.5/weather?q=" + LOCATION + "&appid=" + API_KEY;
 		
